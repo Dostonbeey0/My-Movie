@@ -1,0 +1,43 @@
+::-webkit-scrollbar {
+    width: 0;
+    height: 3px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #8c61ff;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+
+.category-btn {
+    font-weight: bold !important;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 7px 15px;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+}
+.category-btn:hover {
+    background-color: #8c61ff !important;
+    color: white !important;
+}
+.category-btn:hover span {
+    color: white !important;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
